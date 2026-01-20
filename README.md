@@ -62,7 +62,7 @@ The dashboard helps understand sales performance, customer behavior, discount im
 
 ## Dashboard Preview (PDF)
 
-**[View Dashboard PDF](./powerbi/Superstore_Sales_Analytics.pdf)**
+**[View Dashboard PDF](./04_powerbi/Superstore_Sales_Analytics.pdf)**
 
 ---
 
