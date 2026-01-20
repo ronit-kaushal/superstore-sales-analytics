@@ -56,7 +56,7 @@ The dashboard helps understand sales performance, customer behavior, discount im
 
 ## Live Interactive Dashboard
 
-**[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiOTJiNTI5MTItNWE3OC00MzZiLWJjYzQtODY0Y2UxZmRlNmQ0IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9&pageName=4bc6d3cf2240468cc506)**
+**[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiZmE4NDg3ZTctY2NmYy00OWVhLTkyNmItZjAxMTA1ZDA5MGE1IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9&pageName=4bc6d3cf2240468cc506)**
 
 ---
 
