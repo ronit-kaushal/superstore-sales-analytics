@@ -1,77 +1,92 @@
 # Superstore Sales Analytics (Python + SQL + Power BI)
 
-**Author:** Ronit Kaushal  
 **Primary Tools:** Python · SQL · Power BI  
-**Dataset:** Superstore Sales (cleaned + processed)
+**Dataset:** Superstore Sales (Cleaned & Processed)
 
 ---
 
-## Project Overview
+## 1. Business Problem
 
-This is an end-to-end **sales analytics and business intelligence** project built using **Python, SQL, and Power BI**.
+Retail businesses often struggle to understand which products, customers, and regions truly drive profitability. Disconnected analysis across tools can limit visibility into customer behavior, discount impact, and long-term customer value.
 
-**Data Flow:** Raw Data → Python Cleaning → SQL Analysis → Power BI Dashboard
-
-The project covers:
-- Data cleaning using Python (Jupyter Notebook)
-- SQL-based table creation and KPI queries
-- Customer segmentation using **RFM Analysis**
-- Final interactive dashboard in Power BI for business insights
-
-The dashboard helps understand sales performance, customer behavior, discount impact, and customer value segments.
+This project demonstrates an end-to-end **sales analytics and business intelligence** solution to support data-driven commercial decision-making.
 
 ---
 
-## Business Objectives
+## 2. Objective
 
-- Track overall **sales, profit, orders, and customers**
-- Identify top and bottom performing products and categories
-- Understand discount impact on revenue and profitability
-- Perform **RFM segmentation** to classify customers into business-ready segments
-- Support decision-making through interactive dashboards
+Build a complete analytics pipeline to:
 
----
-
-## Key Features
-
-- Data cleaning and preparation using Python
-- SQL scripts for table creation and KPI queries
-- RFM scoring and customer segmentation logic
-- Interactive Power BI dashboard with slicers
-- Customer Value Map (Sales vs Recency) scatter analysis
-- Top customers and segment contribution analysis
+- Track sales, profit, orders, and customer trends  
+- Identify high- and low-performing products and categories  
+- Assess the impact of discounting on profitability  
+- Segment customers using **RFM analysis** to identify high-value and at-risk segments  
+- Deliver insights through an interactive Power BI dashboard  
 
 ---
 
-## Skills Demonstrated
+## 3. Dataset Overview
 
-- Python data cleaning (pandas, numpy)
-- SQL querying and KPI extraction
-- Analytical thinking and KPI design
-- RFM segmentation (Recency, Frequency, Monetary)
-- Power BI data modeling, DAX measures, and visuals design
-- Dashboard storytelling and business insights
+- Public Superstore sales dataset  
+- Includes orders, products, customers, regions, discounts, sales, and profit  
+- Cleaned and prepared using Python before downstream analysis  
+
+---
+
+## 4. KPIs & Metrics
+
+- Total Sales, Profit, Orders, and Customers  
+- Category and Sub-Category Performance  
+- Discount vs Profitability Analysis  
+- RFM Scores (Recency, Frequency, Monetary)  
+- Customer Segment Contribution and Value Distribution  
+
+---
+
+## 5. Approach & Tools
+
+- Cleaned and transformed raw data using **Python (pandas, numpy)**  
+- Created structured tables and KPI queries using **SQL**  
+- Applied **RFM segmentation logic** to classify customers into business-ready segments  
+- Built an interactive **Power BI dashboard** using data modeling, DAX measures, and slicers  
+- Designed visuals to support exploratory and executive-level analysis  
+
+---
+
+## 6. Key Insights (Illustrative)
+
+- A small percentage of customers contributes a disproportionate share of revenue  
+- Certain product categories generate high sales but lower profitability due to discounting  
+- RFM segmentation helps identify high-value customers and churn-risk segments  
+
+---
+
+## 7. Business Impact / Decisions Enabled
+
+- Supports targeted marketing and retention strategies using customer segments  
+- Enables optimization of discounting and pricing decisions  
+- Helps leadership focus on profitable categories, regions, and customer groups  
 
 ---
 
 ## Live Interactive Dashboard
 
-**[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiZmE4NDg3ZTctY2NmYy00OWVhLTkyNmItZjAxMTA1ZDA5MGE1IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9&pageName=4bc6d3cf2240468cc506)**
+[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiZmE4NDg3ZTctY2NmYy00OWVhLTkyNmItZjAxMTA1ZDA5MGE1IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9&pageName=4bc6d3cf2240468cc506)
 
 ---
 
 ## Dashboard Preview (PDF)
 
-**[View Dashboard PDF](./04_powerbi/Superstore_Sales_Analytics.pdf)**
+[View Dashboard (PDF)](./04_powerbi/Superstore_Sales_Analytics.pdf)
 
 ---
 
 ## Notes
 
-- The raw dataset was cleaned in Python and exported as a clean CSV for analysis
-- SQL scripts were written separately for structured KPI reporting and segmentation logic
-- Power BI dashboard is fully interactive and slicer-responsive
-- Focus of the project is on end-to-end analytics execution and dashboard insights
+- Raw data was cleaned and prepared in Python before analysis  
+- SQL scripts were used for KPI extraction and segmentation logic  
+- Power BI dashboard is fully interactive and slicer-driven  
+- Focus is on **end-to-end analytics execution and business insights**
 
 ---
 
